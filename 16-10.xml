@@ -1,0 +1,27 @@
+<theme>
+    <view name="system">
+        
+    </view>
+
+    <view name="gamelist">
+        <datetime name="released">
+            <metadata>releasedate</metadata>
+            <fontPath>${mainFont}</fontPath>
+            <format>%Y</format>
+            <fontSize>0.04</fontSize>
+            <color>${secondColor}</color>
+            <horizontalAlignment>left</horizontalAlignment>
+            <pos>0.415 0.215</pos>
+            <origin>0 0</origin>
+        </datetime> 
+        <rating name="rating">
+            <pos>0.51 0.23</pos>
+            <size>0.08 0.04</size>
+            <interpolation>nearest</interpolation>
+            <color>${secondColor}</color>
+            <filledPath>./assets/images/rating_filled.svg</filledPath>
+            <unfilledPath>./assets/images/rating_empty.svg</unfilledPath>
+        </rating> 
+    </view>
+        
+</theme>

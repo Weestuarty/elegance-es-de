@@ -1,0 +1,78 @@
+<theme>
+    <colorScheme name="1">
+        <variables>
+                <colorSchemeName>Yellow</colorSchemeName>
+                <backgroundColor>000000</backgroundColor>
+                <firstColor>d4af37</firstColor>
+                <secondColor>111111</secondColor>
+                <mainFontColor>111111</mainFontColor>
+                <helpColor>d4af37</helpColor>
+        </variables>
+    </colorScheme>
+
+    <colorScheme name="2">
+        <variables>
+                <colorSchemeName>Red</colorSchemeName>
+                <backgroundColor>561420</backgroundColor>
+                <firstColor>c59a6F</firstColor>
+                <secondColor>561420</secondColor>
+                <mainFontColor>561420</mainFontColor>
+                <helpColor>c59a6f</helpColor>
+        </variables>
+    </colorScheme>
+
+    <colorScheme name="3">
+        <variables>
+                <colorSchemeName>Green</colorSchemeName>
+                <backgroundColor>1c4a26</backgroundColor>
+                <firstColor>ce9b58</firstColor>
+                <secondColor>1c4a26</secondColor>
+                <mainFontColor>1c4a26</mainFontColor>            
+                <helpColor>ce9b58</helpColor>         
+        </variables>
+    </colorScheme>
+
+    <colorScheme name="4">
+        <variables>
+                <colorSchemeName>Blue</colorSchemeName>
+                <backgroundColor>BBBBBB</backgroundColor>
+                <firstColor>17569b</firstColor>
+                <secondColor>BBBBBB</secondColor>
+                <mainFontColor>BBBBBB</mainFontColor>
+                <helpColor>17569b</helpColor>        
+        </variables>
+    </colorScheme>
+
+    <colorScheme name="5">
+        <variables>
+                <colorSchemeName>Black/Blue</colorSchemeName>
+                <backgroundColor>333333</backgroundColor>
+                <firstColor>17569b</firstColor>
+                <secondColor>333333</secondColor>
+                <mainFontColor>333333</mainFontColor>
+                <helpColor>17569b</helpColor>
+        </variables>
+    </colorScheme>
+
+    <colorScheme name="6">
+        <variables>
+                <colorSchemeName>Purple</colorSchemeName>
+                <backgroundColor>333333</backgroundColor>
+                <firstColor>8a00c2</firstColor>
+                <secondColor>333333</secondColor>
+                <mainFontColor>333333</mainFontColor>
+                <helpColor>8a00c2</helpColor>
+        </variables>
+    </colorScheme>
+
+    <colorScheme name="7">
+        <variables>
+                <colorSchemeName>Red/White</colorSchemeName>
+                <backgroundColor>BBBBBB</backgroundColor>
+                <firstColor>561420</firstColor>
+                <secondColor>BBBBBB</secondColor>
+                <mainFontColor>BBBBBB</mainFontColor>
+                <helpColor>561420</helpColor>
+        </variables>
+    </colorScheme>
+</theme>

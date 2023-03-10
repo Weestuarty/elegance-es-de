@@ -62,13 +62,23 @@
     </colorScheme>
     
 
-    <variant name="withVideos">
-        <label>Including Videos</label>
+    <variant name="solidWithVideos">
+        <label>Solid with Videos</label>
         <selectable>true</selectable>
     </variant>
 
-    <variant name="withoutVideos">
-        <label>No Videos</label>
+    <variant name="solidWithoutVideos">
+        <label>Solid no Videos</label>
+        <selectable>true</selectable>
+    </variant>
+
+    <variant name="colorWithVideos">
+        <label>Color with Videos</label>
+        <selectable>true</selectable>
+    </variant>
+
+    <variant name="colorWithoutVideos">
+        <label>Color no Videos</label>
         <selectable>true</selectable>
     </variant>
 </themeCapabilities>

@@ -342,8 +342,12 @@
     <zIndex>16</zIndex>
 </badges>
 </view>
-
-<variant name="withVideos">
+<variant name="solidWithVideos">
+    <view name="system">
+        <carousel name="system_carousel">
+                        <staticImage>./assets/syslogo/${system.theme}.svg</staticImage>
+        </carousel>
+    </view>
     <view name="gamelist">
         <video name="gamedisplay">
             <imageType>titlescreen,screenshot, fanart</imageType>
@@ -356,7 +360,47 @@
     </view>
 </variant>
 
-<variant name="withoutVideos">
+<variant name="solidWithoutVideos">
+    <view name="system">
+        <carousel name="system_carousel">
+                        <staticImage>./assets/syslogo/${system.theme}.svg</staticImage>
+        </carousel>
+    </view>
+    <view name="gamelist">
+        <image name="gamedisplay">
+            <imageType>titlescreen,screenshot, fanart</imageType>
+            <maxSize>0.3 0.335</maxSize>
+            <origin>0.5 0.5</origin>
+            <pos>0.825 0.2125</pos>
+            <zIndex>20</zIndex>
+        </image>   
+    </view>
+</variant>
+
+<variant name="colorWithVideos">
+    <view name="system">
+        <carousel name="system_carousel">
+                        <staticImage>./assets/syslogocolor/${system.theme}.svg</staticImage>
+        </carousel>
+    </view>
+    <view name="gamelist">
+        <video name="gamedisplay">
+            <imageType>titlescreen,screenshot, fanart</imageType>
+            <maxSize>0.3 0.335</maxSize>
+            <origin>0.5 0.5</origin>
+            <pos>0.825 0.2125</pos>
+            <pillarboxes>false</pillarboxes>
+            <zIndex>20</zIndex>
+        </video>   
+    </view>
+</variant>
+
+<variant name="colorWithoutVideos">
+    <view name="system">
+        <carousel name="system_carousel">
+                        <staticImage>./assets/syslogocolor/${system.theme}.svg</staticImage>
+        </carousel>
+    </view>
     <view name="gamelist">
         <image name="gamedisplay">
             <imageType>titlescreen,screenshot, fanart</imageType>

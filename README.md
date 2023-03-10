@@ -7,10 +7,12 @@ Elegance is a theme set for ES-DE that supports all systems as well as the lates
 
 The following options are included:
 
-2 variants:
+4 variants:
 
-- with videos
-- without videos
+- Solid with videos
+- Solid no videos
+- Color with videos
+- Color no videos
 
 7 color schemes:
 

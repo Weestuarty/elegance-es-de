@@ -256,6 +256,7 @@
 
 <text name="player1">
     <metadata>players</metadata>
+    <defaultValue>:space:</defaultValue>
     <fontPath>${mainFont}</fontPath>
     <fontSize>0.05</fontSize>
     <color>${secondColor}</color>

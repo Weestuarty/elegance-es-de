@@ -3,6 +3,7 @@
 -->
 
 <themeCapabilities>
+
     <aspectRatio>16:9</aspectRatio>
     <aspectRatio>4:3</aspectRatio>
     <aspectRatio>16:10</aspectRatio>
@@ -13,7 +14,6 @@
         <entry>builtin-slide</entry>
         <entry>builtin-fade</entry>
     </suppressTransitionProfiles>
-    
 
     <transitions name="instantfade">
         <label>Instant w/Fade</label>
@@ -25,7 +25,6 @@
         <startupToSystem>slide</startupToSystem>
         <startupToGamelist>slide</startupToGamelist>
     </transitions>
-
     <transitions name="instant">
         <label>Instant</label>
         <selectable>true</selectable>
@@ -36,7 +35,7 @@
         <startupToSystem>instant</startupToSystem>
         <startupToGamelist>instant</startupToGamelist>
     </transitions>
-    
+
     <themeName>Elegance</themeName>
 
     <colorScheme name="1">
@@ -60,23 +59,20 @@
     <colorScheme name="7">
         <label>White/Red</label>
     </colorScheme>
-    
+
 
     <variant name="solidWithVideos">
         <label>Solid with Videos</label>
         <selectable>true</selectable>
     </variant>
-
     <variant name="solidWithoutVideos">
         <label>Solid no Videos</label>
         <selectable>true</selectable>
     </variant>
-
     <variant name="colorWithVideos">
         <label>Color with Videos</label>
         <selectable>true</selectable>
     </variant>
-
     <variant name="colorWithoutVideos">
         <label>Color no Videos</label>
         <selectable>true</selectable>

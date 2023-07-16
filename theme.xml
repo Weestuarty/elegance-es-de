@@ -167,7 +167,7 @@
             <zIndex>20</zIndex>
         </image>
         <image name="Syslogo">
-            <path>./assets/syslogo/${system.theme}.svg</path>
+            <path>./system/logos/system-logo-white/${system.theme}.svg</path>
             <pos>0.035 0.225</pos>
             <origin>0.5 0.5</origin>
             <rotation>-90</rotation>
@@ -323,7 +323,7 @@
     <variant name="solidWithVideos">
         <view name="system">
             <carousel name="system_carousel">
-                <staticImage>./assets/syslogo/${system.theme}.svg</staticImage>
+                <staticImage>./system/logos/system-logo-white/${system.theme}.svg</staticImage>
                 <imageColor>${secondColor}</imageColor>
                 <imageSelectedColor>${secondColor}</imageSelectedColor>
             </carousel>
@@ -343,7 +343,7 @@
     <variant name="solidWithoutVideos">
         <view name="system">
             <carousel name="system_carousel">
-                <staticImage>./assets/syslogo/${system.theme}.svg</staticImage>
+                <staticImage>./system/logos/system-logo-white/${system.theme}.svg</staticImage>
                 <imageColor>${secondColor}</imageColor>
                 <imageSelectedColor>${secondColor}</imageSelectedColor>
             </carousel>
@@ -362,7 +362,7 @@
     <variant name="colorWithVideos">
         <view name="system">
             <carousel name="system_carousel">
-                <staticImage>./assets/syslogocolor/${system.theme}.svg</staticImage>
+                <staticImage>./system/logos/system-logo-color/${system.theme}.svg</staticImage>
             </carousel>
         </view>
         <view name="gamelist">
@@ -380,7 +380,7 @@
     <variant name="colorWithoutVideos">
         <view name="system">
             <carousel name="system_carousel">
-                <staticImage>./assets/syslogocolor/${system.theme}.svg</staticImage>
+                <staticImage>./system/logos/system-logo-color/${system.theme}.svg</staticImage>
             </carousel>
         </view>
         <view name="gamelist">

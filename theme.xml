@@ -194,6 +194,7 @@
             <pos>0.6 0.3</pos>
             <origin>1 0</origin>
         </text>
+        
         <text name="kid1">
             <metadata>kidgame</metadata>
             <fontPath>${mainFont}</fontPath>

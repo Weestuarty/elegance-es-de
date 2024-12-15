@@ -7,6 +7,7 @@
 <theme>
 
     <include>./colors.xml</include>
+    <include>./languages.xml</include>
 
 
     <aspectRatio name="4:3">
@@ -81,6 +82,7 @@
         <text name="count">
             <size>0.3 0.05</size>
             <systemdata>gamecount</systemdata>
+            <letterCase>capitalize</letterCase>
             <fontPath>${mainFont}</fontPath>
             <fontSize>0.03</fontSize>
             <lineSpacing>1</lineSpacing>
@@ -186,7 +188,7 @@
             <origin>0 0</origin>
         </text>
         <text name="fave2">
-            <text>Favorite:</text>
+            <text>${langLabelFavorites}:</text>
             <metadataElement>true</metadataElement>
             <fontPath>${mainFont}</fontPath>
             <fontSize>0.025</fontSize>
@@ -202,17 +204,17 @@
             <color>${secondColor}</color>
             <letterCase>capitalize</letterCase>
             <horizontalAlignment>left</horizontalAlignment>
-            <pos>0.61 0.33</pos>
+            <pos>0.61 0.27</pos>
             <origin>0 0</origin>
         </text>
         <text name="kid2">
-            <text>Child Friendly:</text>
+            <text>${langLabelChild}:</text>
             <metadataElement>true</metadataElement>
             <origin>1 0</origin>
             <fontPath>${mainFont}</fontPath>
             <fontSize>0.025</fontSize>
             <color>${secondColor}</color>
-            <pos>0.6 0.33</pos>
+            <pos>0.6 0.27</pos>
         </text>
         <text name="complete1">
             <metadata>completed</metadata>
@@ -221,16 +223,16 @@
             <color>${secondColor}</color>
             <letterCase>capitalize</letterCase>
             <horizontalAlignment>left</horizontalAlignment>
-            <pos>0.61 0.27</pos>
+            <pos>0.61 0.33</pos>
             <origin>0 0</origin>
         </text>
         <text name="complete2">
-            <text>Completed:</text>
+            <text>${langLabelCompleted}:</text>
             <metadataElement>true</metadataElement>
             <fontPath>${mainFont}</fontPath>
             <fontSize>0.025</fontSize>
             <color>${secondColor}</color>
-            <pos>0.6 0.27</pos>
+            <pos>0.6 0.33</pos>
             <origin>6 0</origin>
         </text>
         <text name="player1">
